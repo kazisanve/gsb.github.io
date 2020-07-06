@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Centurt Gothic;
+}	
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("jk.jpg");
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 14px;
+}
+	
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent ;
+	transition: 0.5s ease;
+	border-radius:10px; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+	
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 159px;
+    height: 76px;
+}
+}
+
+.main{
+	max-width:1500px;
+	margin:auto;
+}
+.title{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size:50px;
+}
+.button{
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size:30px;
+}
+.btn{
+	border:2px solid #fff;
+	color:#fff;
+	padding:10px 30px;
+	text-decoration:none;
+	transition:0.6s ease;
+
+	
+}
+.btn:hover{
+	background-color: #fff;
+	color:#000;
+	border-radius:40px;
+}
+.title2{
+	position: absolute;
+	top:96%;
+	left:78.5%;
+}
+.title2 h2{
+    color:#fff;
+    font-size:15px;
+    font-family:Lucida Sans Unicode;
+}
+.title2 h2 a{
+    color:#fff;
+    font-size:15px;
+    font-family:Lucida Sans Unicode;	 
+}
+li ul{
+	
+	list-style-type:none;
+	padding:0;
+}
+	
+	
+	
